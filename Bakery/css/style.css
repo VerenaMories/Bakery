@@ -1,0 +1,367 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-link:hover {
+  background-color: #8e7754 !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.logo {
+  width: 15%;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/drew-coffman-1872.jpg);
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-content {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+  color: #fff;
+
+  text-transform: capitalize;
+}
+.home-content p {
+  margin-top: 40px;
+  color: #ccc;
+  font-size: 24px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.home-content h1 {
+  font-size: 50px;
+  font-family: Alegreya, serif, monospace;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 900 !important;
+  font-size: 70px;
+}
+.home-content button {
+  padding: 15px 25px 15px 25px;
+
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+  color: #fff;
+}
+.btn1 {
+  background-color: #8e7754;
+}
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+.btn-btn2 {
+  background: transparent;
+  border: #fff;
+  border-width: 2px;
+  border-style: solid;
+}
+.btn-btn2:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.clearfix {
+  clear: both;
+}
+/*-----------------------------------------------------*/
+.about {
+  padding-top: 3rem;
+
+  width: 100%;
+}
+.about-content {
+  text-align: center;
+}
+.about-content h2 {
+  padding-top: 2rem;
+}
+.about-content p {
+  color: #686868;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+.about-content h2 {
+  margin-bottom: 20px;
+}
+
+.about-content ul {
+  text-align: left;
+}
+.about-content ul li {
+  list-style: none;
+}
+.about-content ul li p {
+  display: inline-block;
+}
+.about-content ul li i {
+  border: 0.5px solid #929292;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;
+  color: #8e7754;
+}
+/*----------------------------------------end of about section-----------------------------------------------------*/
+.offer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f8f8f8;
+}
+
+.offer-content {
+  text-align: center;
+}
+.offer-content p {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+}
+.offer-content h2 {
+  padding-top: 50px;
+  color: #303030;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+/*--------------------------------end of offer section--------------------------------------*/
+.gallery-content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.gallery-content h2 {
+  padding-bottom: 30px;
+}
+
+.gallery-img {
+  text-align: center;
+ 
+  display: inline-block;
+}
+.gallery-img h4 {
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.gallery-img p {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+
+/*--------------------------------end of gallery section--------------------------------------*/
+
+.blog{
+    margin-top: 3rem;
+    padding-top: 3rem; 
+    background-color: #f8f8f8;
+}
+.blog-content {
+  text-align: center;
+}
+
+.blog-content h2 {
+  color: #303030;
+  text-align: center; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-content p {
+  color: #686868;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: Alegreya Sans, sans-serif, monospace;
+  padding-left: 10px;
+}
+
+.blog-contact {
+  text-align: left;
+}
+.blog-contact ul li{
+    list-style: none;
+}
+.blog-contact ul li i{
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    padding: 10px;
+    
+    color:#fff ;
+    background-color:#8e7754 ;
+}
+.blog-contact p{
+    display: inline-block;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 500px;
+}
+/*--------------------------------end of blog section--------------------------------------*/
+
+.contact {
+  background-color: #403d38;
+}
+
+.contact-content p {
+  color: #969696;
+  font-size: 19;
+}
+.contact-content h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.special ul{
+    margin: 0;
+    padding: 0;
+}
+.special ul li{
+    list-style: none;
+}
+.special ul li p {
+  border-bottom: 1px solid #303030;
+
+  display: inline-block;
+  color: #969696;
+  font-size: 19;
+  
+}
+.special ul li i{
+    color: #969696;
+}
+.special h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.opening p {
+  border-bottom: 1px solid #303030;
+ 
+ display: inline-block;
+  color: #969696;
+  font-size: 19;
+}
+.opening ul li{
+    list-style: none;
+}
+.opening ul li i{
+    color: #969696;
+
+}
+.opening h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.details ul li{
+    list-style: none;
+}
+.details ul li i{
+    color: #969696;
+}
+.details ul li p:hover{
+    color: #fff;
+}
+.details p {
+  border-bottom: 1px solid #303030;
+  
+  color: #969696;
+  font-size: 19;
+  display: inline-block;
+}
+.details h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+/*--------------------------------end of contact section--------------------------------------*/
+
+
+.footer {
+  background-color: rgb(39, 38, 38);
+  text-align: center;
+
+}
+.footer img{
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px 20px;
+}
+.footer p {
+  font-size: 14px;
+  color: #969696;
+}
+.footer  ul{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px 0 50px;
+}
+.footer  ul li{
+    background: #484540;
+    color: #8c8a86;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    list-style: none;
+}
+/*--------------------------------end of footer --------------------------------------*/
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .pics {
+    width: 33.333%;
+  }
+}
+@media screen and (max-width: 992x) and (min-width: 768px) {
+  .pics {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .pics {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pics {
+    width: 100%;
+  }
+}
